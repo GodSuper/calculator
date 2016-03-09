@@ -1,0 +1,15 @@
+body{
+font-family: "微软雅黑"
+	}
+	
+	
+	/*设置边距*/
+	.top{
+	margin-top: 100px
+	}
+	
+	/*设置居中*/
+	.center{ text-align：center;
+	}
+	
+	
