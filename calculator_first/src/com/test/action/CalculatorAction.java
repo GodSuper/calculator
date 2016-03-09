@@ -1,9 +1,9 @@
 package com.test.action;
 
-import com.opensymphony.xwork2.ActionSupport;
 
 
-public class CalculatorAction extends ActionSupport {
+
+public class CalculatorAction {
 	private static final long serialVersionUID = 1L;
 	private float principal;// 存入本金
 	private float annualRate;// 年利率
@@ -27,8 +27,10 @@ public class CalculatorAction extends ActionSupport {
 	}
 
 	public String calculate() {
+		System.out.println(total);
 		total = (float) (principal * Math.pow((1 + annualRate), year));
-		return SUCCESS;
+		System.out.println(total);
+		return "success";
 
 	}
 
