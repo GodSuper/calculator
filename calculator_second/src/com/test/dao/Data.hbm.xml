@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.test.dao.showDataDao" table="t_showdata">
+		<id name="id" />
+		<property name="investmentType" column="f_investment_type" />
+		<property name="revenueType" column="f_revenue_type"/>
+		<property name="data" column="f_data"/>
+    </class>
+	
+</hibernate-mapping>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+
+
+	<constant name="struts.devMode" value="true"></constant>
+	<!--action  -->
+ 	<package name="test" namespace="/Calculator" extends="struts-default"> 
+<!-- 		<default-action-ref name="Calculator"></default-action-ref> -->
+<!--		<action name="index">-->
+<!--			<result>/index.jsp</result>-->
+<!--		</action>-->
+		<action name="Calculator2" class="com.test.action.CalculatorAction" method="calculate" >
+		
+		</action>
+<!-- 		<action name="Calculator3" class="com.test.action.CalculatorAction" method="calculateFuli"> -->
+<!-- 		</action> -->
+		
+		<action name="Calculator1" class="com.test.action.CalculatorAction" method="select"> 
+<!--  		<result name="chose">/index.jsp</result>  -->
+		</action> 
+	</package>
+
+
+</struts>
