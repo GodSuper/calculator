@@ -4,11 +4,17 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-	<class name="com.test.dao.showDataDao" table="t_showdata">
-		<id name="id" />
+	<class name="com.test.model.showDataModel" table="t_showdata">
+		<id name="id" column="f_id" type="long">
+		<generator class="increment"/>
+		</id>
 		<property name="investmentType" column="f_investment_type" />
 		<property name="revenueType" column="f_revenue_type"/>
 		<property name="data" column="f_data"/>
+		<property name="f1" column="f_1"/>
+		<property name="f2" column="f_2"/>
+		<property name="f3" column="f_3"/>
+		<property name="f4" column="f_4"/>
     </class>
 	
 </hibernate-mapping>

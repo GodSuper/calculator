@@ -23,6 +23,11 @@
 		<action name="Calculator1" class="com.test.action.CalculatorAction" method="select"> 
 <!--  		<result name="chose">/index.jsp</result>  -->
 		</action> 
+		
+		<action name="Calculator3" class="com.test.action.CalculatorAction" method="search"> 
+		</action> 
+		<action name="Calculator4" class="com.test.action.CalculatorAction" method="searchKeyWord"> 
+		</action> 
 	</package>
 
 

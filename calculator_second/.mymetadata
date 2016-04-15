@@ -3,11 +3,11 @@
   type="WEB"
   name="calculator_second"
   id="myeclipse.1457498739877"
-  context-root="/calculator_first"
+  context-root="/calculator_second"
   j2ee-spec="5.0"
   archive="calculator_second.war">
   <attributes>
-    <attribute name="webrootdir" value="WebRoot" />
+    <attribute name="webrootdir" value="/WebRoot" />
   </attributes>
 </project-module>
 
